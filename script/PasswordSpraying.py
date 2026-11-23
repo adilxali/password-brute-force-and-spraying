@@ -25,4 +25,4 @@ for attempt in PADDING_PASSWORDS:
             body = e.read().decode("utf-8")
             print(f"Attempt {attempt} for {username}: {e.code} - {body}")
         
-        time.sleep(15)
+        time.sleep(1)
