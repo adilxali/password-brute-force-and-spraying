@@ -1,0 +1,17 @@
+[project]
+name = "password-brute-force-and-spraying"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "adilxali", email = "adixali" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+password-brute-force-and-spraying = "password_brute_force_and_spraying:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
